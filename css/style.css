@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #991204;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: black;
+    color: #C11400;
+}
+
+a:visited {
+    color: black;
+}
+
+.logo-nav img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid rgb(173, 42, 42)
+}
+
+.logo-nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+    
+}
+
+.logo-nav {
+    height: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2px solid #C11400;
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.encabezado-texto {
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #C11400;
+}
+
+main {
+    padding: 20px 0 10px 0;
+    
+}
+
+div.info {
+    margin-left: 20px;
+    width: 45%;
+    display: inline-block;
+    
+}
+
+div.info h3 {
+    margin-bottom: 10px;
+    
+}
+
+div.info p {
+    margin-bottom: 10px;
+}
+
+.img-contenedor {
+    display: inline-block;
+    width: 45%;
+}
+
+.img-nos {
+    margin-left: 80px;
+    margin-bottom: 30px;
+    width: 80%;
+
+}
+
+.galeria {
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.galeria img {
+    border: 1px solid black;
+    border-radius: 10%;
+    margin: 0 5px 10px 5px;
+    
+}
+
+
+
+footer {
+    border: 1px solid rgba(29, 29, 29, 0.342);
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer p {
+    text-align: center;
+    font-style: italic;
+    
+}
