@@ -54,6 +54,10 @@ main {
     background-size: cover;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* index */
 
 .img-index {
@@ -73,12 +77,26 @@ i, h4 {
 .moto {
     margin: 20px 0 10px 0;
     display: block;
+    font-size: 30px;
+    background-color: rgb(33,37,41) ;
+    border: 8px solid rgb(33,37,41);
+    border-radius: 50%;
 }
 
-.envio {
-    background-color: rgb(33,37,41);
-    display: inline-block;
+.block {
+    display: block;
+    margin-bottom: 10px;
 }
+
+.fondito {
+    background-color: rgb(33,37,41);
+    border-left: 10px solid rgb(33,37,41) ;
+    border-right: 10px solid rgb(33,37,41) ;
+    border-radius: 40px;
+    display: inline;
+}
+
+
 /*pagina nosotros*/
 
 .embed-container {
@@ -142,18 +160,6 @@ i, h4 {
     grid-row: 2/3;
 }
 
-.block {
-    display: block;
-    margin-bottom: 10px;
-}
-
-.link-cat {
-    background-color: rgb(33,37,41);
-    border-left: 10px solid rgb(33,37,41) ;
-    border-right: 10px solid rgb(33,37,41) ;
-    border-radius: 40px;
-    display: inline;
-}
 
 /*pagina contacto */
 
@@ -295,6 +301,10 @@ footer {
     .grid img {
         max-width: 150px; 
     }
+
+    .qr-code, .qr-text {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 374px) {
@@ -316,6 +326,13 @@ footer {
     footer {
         height: 150px;
         padding-top: 25px;
+
+    }
+  
+
+    .nosotros {
+        height: fit-content;
+        padding-bottom: 10px;
 
     }
 
