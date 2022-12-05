@@ -22,33 +22,77 @@ h1 {
     font-family: 'Great Vibes', cursive, sans-serif;
 }
 
-a {
-    
-    transition: all 0.5s ease-in-out;
-}
-
-a:hover {
-    text-shadow: 0 0 20px #fefcc9, 2px -2px 3px #feec85, -4px -4px 5px #ffae34, 5px -10px 6px #ec760c, -5px -12px 8px #cd4606, 0 -15px 20px #973716, 2px -15px 20px #451b0e;
-color: #666;
-}
-
 .logo {
     margin-right: 10px;
     margin-top: -5px;
     border-radius: 50%;
 }
+
+.fuego-texto, .fuego-boton {
+    transition: all 0.5s ease-in-out;
+}
+
+.fuego-texto:hover {
+    text-shadow: 0 0 20px #fefcc9, 2px -2px 3px #feec85, -4px -4px 5px #ffae34, 5px -10px 6px #ec760c, -5px -12px 8px #cd4606, 0 -15px 20px #973716, 2px -15px 20px #451b0e;
+color: #666;
+}
+
+.fuego-boton:hover {
+    box-shadow: 0 0 20px #fefcc9, 2px -2px 3px #feec85, -4px -4px 5px #ffae34, 5px -10px 6px #ec760c, -5px -12px 8px #cd4606, 0 -15px 20px #973716, 2px -15px 20px #451b0e;
+color: #666;
+}
+
 /*fin navbar*/
 /*fin header*/
 
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;   
+/*main*/
+
+main {  
+    padding: 30px 20px 0 30px;
     height: 100vh;
     background-color: rgb(5, 5, 5);
 }
 
+/*pagina catalogo */
 
+
+.wsp {
+    color: #dad3cb;
+}
+
+.wsp:hover {
+    color: #dad3cb;
+}
+
+.qr-code {
+    max-width: 200px;
+    margin: 20px auto;
+}
+
+/*form*/
+label {
+    color: #dad3cb;
+}
+
+form {
+    margin: 30px auto 0 auto;
+    
+}
+
+form button {
+    position: absolute;
+    right: 40px;
+    
+}
+
+#enviar {
+    background-color: rgb(33,37,41);
+}
+
+
+
+
+/*fin pagina catalogo*/
 /*footer*/
 
 footer {
