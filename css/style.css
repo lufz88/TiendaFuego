@@ -50,11 +50,52 @@ color: #666;
 main {  
     padding: 30px 20px 0 30px;
     height: 100vh;
-    background-color: rgb(5, 5, 5);
+    background-image: url(../img/fondo.png);
+    background-size: cover;
 }
 
-/*pagina catalogo */
+/* index */
 
+.img-index {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+i, h4, p {
+    color: #dad3cb;
+    
+}
+
+i, h4 {
+    font-size: 18px;
+}
+
+.moto {
+    margin: 20px 0 10px 0;
+    display: block;
+}
+
+.envio {
+    background-color: rgb(33,37,41);
+    display: inline-block;
+}
+/*pagina nosotros*/
+
+.embed-container {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*pagina contacto */
 
 .wsp {
     color: #dad3cb;
@@ -66,7 +107,11 @@ main {
 
 .qr-code {
     max-width: 200px;
-    margin: 20px auto;
+    margin: 20px auto 10px auto;
+}
+
+.mas-margen {
+    margin-top: 10px;
 }
 
 /*form*/
@@ -75,7 +120,7 @@ label {
 }
 
 form {
-    margin: 30px auto 0 auto;
+    margin: 15px auto 0 auto;
     
 }
 
@@ -89,10 +134,8 @@ form button {
     background-color: rgb(33,37,41);
 }
 
-
-
-
 /*fin pagina catalogo*/
+
 /*footer*/
 
 footer {
@@ -106,10 +149,7 @@ footer {
     border: 1px solid rgb(5, 5, 5); 
 }
 
-i, h4 {
-    color: #dad3cb;
-    font-size: 20px;
-}
+
 
 .redes {
     display: flex;
