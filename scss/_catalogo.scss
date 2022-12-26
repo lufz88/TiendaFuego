@@ -1,0 +1,48 @@
+.grid {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 25px;
+  img {
+    max-height: 200px;
+    margin-bottom: 5px;
+  }
+  
+}
+
+.producto {
+  background-color: $fondo1;
+  max-width: 350px;
+  p {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+  }
+}
+
+.producto1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.producto2 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.producto3 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.producto4 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+li {
+  color: $texto1;
+  text-align: left;
+  font-size: 14px;
+}

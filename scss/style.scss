@@ -1,0 +1,79 @@
+@import "animaciones";
+@import "variables";
+
+/*header*/
+header {
+  background-color: $fondo1;
+}
+
+h2 {
+  margin: 0;
+  color: #dd211a;
+  text-align: center;
+  padding-top: 100px;
+}
+
+/*Navbar*/
+h1 {
+  color: $texto1;
+  display: inline;
+  font-family: "Great Vibes", cursive, sans-serif;
+}
+
+.logo {
+  margin-right: 10px;
+  margin-top: -5px;
+  border-radius: 50%;
+}
+
+
+/*fin navbar*/
+/*fin header*/
+
+/*main*/
+
+main {
+  padding: 30px 20px 0 30px;
+  height: 100vh;
+  background-image: url(../img/fondo.png);
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*footer*/
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: $fondo2;
+  opacity: 1;
+  text-align: center;
+  z-index: 12000;
+  border: 1px solid $fondo1;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding-top: 15px;
+}
+
+.link-redes {
+  margin-top: 10px;
+    a {
+    color: $texto1;
+    margin: 0 30px 0 30px;
+    }
+}
+
+@import "index";
+@import "nosotros";
+@import "catalogo";
+@import "contacto";
+@import "mediaqueries";
+

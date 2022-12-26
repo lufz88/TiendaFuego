@@ -1,0 +1,37 @@
+.img-index {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  i,
+  h4,
+  p {
+    color: $texto1;
+  }
+  
+  i,
+  h4 {
+    font-size: 18px;
+  }
+  
+  .moto {
+    margin: 20px 0 10px 0;
+    display: block;
+    font-size: 30px;
+    background-color: $fondo1;
+    border: 8px solid $fondo1;
+    border-radius: 50%;
+  }
+  
+  .block {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .fondito {
+    background-color: $fondo1;
+    border-left: 10px solid $fondo1;
+    border-right: 10px solid $fondo1;
+    border-radius: 40px;
+    display: inline;
+  }

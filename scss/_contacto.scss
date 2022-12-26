@@ -1,0 +1,34 @@
+.wsp {
+  color: $texto1;
+}
+
+.wsp:hover {
+  color: $texto1;
+}
+
+.qr-code {
+  max-width: 200px;
+  margin: 20px auto 10px auto;
+}
+
+.mas-margen {
+  margin-top: 10px;
+}
+
+/*form*/
+label {
+  color: $texto1;
+}
+
+form {
+  margin: 15px auto 0 auto;
+}
+
+form button {
+  position: absolute;
+  right: 40px;
+}
+
+#enviar {
+  background-color: $fondo1;
+}
